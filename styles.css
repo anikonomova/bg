@@ -8,22 +8,21 @@ height: 350px;
 padding: 5px;
 border-radius: 50%;}
 body
-{background-image: url("https://i0.wp.com/glctulsa.org/wp-content/uploads/2014/05/dark_spot_background_texture_50611_1920x1080.jpg?fit=1024%2C576");
-background-size: cover;
-background-position: center;
+{background: linear-gradient(white, green, red);
 color: white;
 font-family: sans-serif;
 font-size: 100%;
 font-weight: 350;
 text-align:  center;
-border:5px solid white;
-border-bottom:5px solid white;
-border-right: 5px solid white;
+border:5px solid red;
+border-bottom:5px solid green;
+border-right: 5px solid green;
 margin: 0;}
-h1
+.name
 {font-size: 200%;
 font-weight: bold;
-text-shadow: 2px 2px black;}
+color: white;
+text-shadow: 3px 3px black;}
 .title2
 {font-size: 150%;
 font-weight: bold;
@@ -36,13 +35,21 @@ font-weight: bold;
 font-style: oblique;
 text-decoration: underline;
 text-shadow: 2px 2px black;}
-p
-{border: 1px solid white;
-border-radius: 2em;
+p {
+border: 1px solid white;
+border-radius: 1em;
 padding: 2px 2px 2px 2px;
 margin: 2px;
-background-color: black;
 font-size: 100%;}
+.ski{
+width: 350px;
+height: 350px;
+padding: 5px;}
+.son {
+width: 350px;
+height: 300px;
+padding: 5px;
+}
 .fa {
     padding: 10px;
     font-size: 20px;
